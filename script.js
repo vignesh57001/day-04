@@ -1,4 +1,11 @@
+         
+compare the two object JSON have the same properties without order
 
+
+         var obj1 = {"name":"person 1","age":5};
+         var obj2 = {"age":5,"name":"person 1"};
+
+     JSON.stringify((obj1).name) == JSON.stringify((obj2).name)
 
 
 -----------------------------------------------------------------------------------------------
@@ -18,7 +25,7 @@
 
 
 -----------------------------------------------------------------------------------
-
+country name,region,sub-region,population
 
 var request=new XMLHttpRequest();
 request.open("GET","https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
@@ -39,6 +46,8 @@ for(var i=0;i<result.length;i++){
 }
  
 ---------------------------------------------------------------------------------------------
+  country names and flags  
+    
     
     var request=new XMLHttpRequest();
 request.open("GET","https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
