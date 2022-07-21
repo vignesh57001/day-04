@@ -2,7 +2,7 @@
 
 compare the two same object JSON have the same properties without order
 
-                 obj1 = {"name": "person 1", "age": "5"},
-                 obj2 = {"age": "7", "name": "person 1"};
-    
-                    console.log( _.isEqual(obj1, obj2) );
+          var obj1 = {"name":"person 1","age":5};
+             var obj2 = {"age":5,"name":"person 1"};
+
+         JSON.stringify((obj1).name) == JSON.stringify((obj2).name)
